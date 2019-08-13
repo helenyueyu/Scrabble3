@@ -1,0 +1,67 @@
+#game {
+    text-align: center; 
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.5rem; 
+    padding-top: 0.75rem; 
+    padding-bottom: 0.25rem; 
+}
+#board {
+    display: inline-block; 
+}
+
+#label {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-right: 0.5rem; 
+}
+#player1 {
+    padding-top: 0.25rem; 
+}
+#player2 {
+    padding-top: 0.25rem; 
+}
+
+.row {
+    display: flex; 
+}
+.square {
+    padding: 0.25rem; 
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold; 
+    width: 30px; 
+    height: 30px; 
+    align-items: center; 
+    justify-content: space-around; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+.tile-mat {
+    display: flex; 
+    justify-content: center; 
+}
+.tile {
+    padding: 0.25rem; 
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-weight: bold; 
+    width: 30px; 
+    height: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    text-align: center; 
+    box-sizing: border-box; 
+    background-color: rgb(142, 207, 242); 
+}
+.points {
+    font-size: 0.7rem;
+    transform: translateY(5px);  
+}
+
+.on {
+    background: rgb(176, 233, 176); 
+}
